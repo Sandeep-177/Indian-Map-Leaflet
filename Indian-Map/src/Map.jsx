@@ -20,6 +20,7 @@ export default function Map() {
       center={[20.5937, 78.9629]} // India center
       zoom={5}
       style={{ height: "100vh", width: "100%" }}
+      className="Mapcon"
     >
       <TileLayer
         attribution='&copy; OpenStreetMap contributors'
